@@ -17,7 +17,7 @@ public class Twitter_Login {
 		Thread.sleep(2000);
 		driver.findElement(By.className("js-login")).click();
 		driver.findElement(By.className("js-signin-email")).sendKeys("zeejoe786");
-		driver.findElement(By.cssSelector("input[type=password]")).sendKeys("Pakistan1");
+		driver.findElement(By.cssSelector("input[type=password]")).sendKeys("Sahiwal1");
 		//driver.findElement(By.name("password")).submit();
 		boolean x = driver.findElement(By.name("remember_me")).isSelected();
 		if (x == true)

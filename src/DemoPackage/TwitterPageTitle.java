@@ -20,11 +20,11 @@ public class TwitterPageTitle {
 		if (actualTitle.contentEquals(expectedTitle))
 			
 			{
-			System.out.println("Login Passed!");
+			System.out.println("Passed, User can able to open the url!");
 			}
 			else
 			{
-			System.out.println("Login Failed!");
+			System.out.println("Failed, User is unable to open the url!");
 			}
         //close Fire fox
         driver.close();

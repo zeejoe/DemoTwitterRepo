@@ -16,7 +16,7 @@ public class UserCanSearchTweet {
 	Thread.sleep(2000);
 	driver.findElement(By.className("js-login")).click();
 	driver.findElement(By.className("js-signin-email")).sendKeys("zeejoe786");
-	driver.findElement(By.cssSelector("input[type=password]")).sendKeys("Pakistan1");
+	driver.findElement(By.cssSelector("input[type=password]")).sendKeys("");
 	driver.findElement(By.className("js-submit")).click();
 	driver.findElement(By.cssSelector("input#search-query")).sendKeys("Hey, this is test msg 5.");
     //close Fire fox
